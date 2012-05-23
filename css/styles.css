@@ -1,0 +1,253 @@
+/* 
+    Document   : styles.css
+    Created on : 6.4.2012, 17:35:56
+    Author     : Janne
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+@font-face {
+ font-family: AnnabelScript;
+ src: url("../fonts/AnnabelScript.eot"); /* EOT file for IE */
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: AnnabelScript;
+ src: url("../fonts/AnnabelScript.ttf"); /* TTF file for CSS3 browsers */
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: RationalInteger;
+ src: url("../fonts/RationalInteger.eot"); /* EOT file for IE */
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: RationalInteger;
+ src: url("../fonts/RationalInteger.ttf"); /* TTF file for CSS3 browsers */
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: VenusRising;
+ src: url("../fonts/VENUSRIS.ttf"); /* TTF file for CSS3 browsers */
+ font-weight: normal;
+ font-style: normal;
+}
+
+body {
+    margin: 0;
+    position: 0;
+    background-color: #cccccc;
+
+}
+
+#wrapper {
+    width: 824px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 1000px;
+    margin-top: -20px;
+  
+    /*height: 1000px;*/
+}
+
+#banner {
+    width: 850px;
+    background-color:  #8192aa;
+    color: white;
+     /* margin-left: auto;
+    margin-right: aut
+    /*margin-left: 240px;*/
+
+}
+
+#banner h1 {
+    font-size: 30px;
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;
+        
+}
+
+#banner h1 #cssheader  {
+    font-family: AnnabelScript;
+}
+
+#banner h1 #jqueryheader  {
+    font-family: RationalInteger;
+    font-size: 35px;
+}
+
+#banner h1 #html5header  {
+    font-family: Gotham;
+}
+
+
+
+#banner h1 #guideheader {
+    font-size: 20px;
+    font-family: VenusRising;
+    text-transform: uppercase;
+}
+
+header {
+    /*height: 75px;*/
+   padding-top: 10px;
+   padding-left: 10px;
+}
+
+nav {
+    background-color: #4b6281;
+    border: 2px solid white;
+    
+
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 20px;
+    text-shadow: 0px 0px 5px #333;
+    filter: dropshadow(color=#333, offx=0, offy=0);
+}
+
+nav a:hover {
+    text-shadow: 0px 0px 5px #fff;
+    filter: dropshadow(color=#fff, offx=0, offy=0);
+}
+
+nav #interactiveMode {
+    padding-left: 80px;
+    font-family: VenusRising;
+    font-size: 10px;
+}
+
+nav #interactiveModeButton {
+    margin-left: 5px;
+    background-color: #da2e67;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: #dfdfdf;
+    border-right-color: #666;
+    border-bottom-color: #333;
+    border-left-color: #858585;
+    text-transform: uppercase;
+}
+
+#home #homeLink, #css21 #css21Link, #css3 #css3Link,
+#jquery #jqueryLink, #html5 #html5Link {
+    background-color: white;
+    color: black;
+    text-shadow: none;
+    cursor: default;
+    pointer-events: none;
+    border: 3px solid white;
+    
+}
+
+
+#content {
+    float: left;
+    width: 815px;
+    /*margin-left: 240px;*/
+    background-color:  #c4cfde;
+    color:  black;
+    border: 2px solid black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 80px;
+     /*margin-right: 320px;*/
+}
+
+#content p {
+    font-family: Georgia, "Times New Roman", serif;
+    color:   #384c54;
+}
+
+#content h1, h2 {
+    font-family: Tahoma, "Lucida Grande", Arial, serif;
+    color:  #2f3436;
+}
+
+#content h1 {
+    font-size: 25px;
+}
+#content h2 {
+    font-size: 20px;
+}
+
+
+
+#content ul {
+    font-family: "Hoefler Text", Garamond, Times, serif;
+    color: #1b2b32;
+}
+
+table {
+    font-family: "Thresbuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    font-size: 1.15em;
+    border: 2px solid #adac5c;
+    padding: 3px 7px 2px 7px;
+    background-color:  #c0d3df;
+}
+
+table th {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+}
+
+#quiz {
+    opacity: 0.85;
+    width: 930px;
+    font-size: 14px;
+    display: none;
+    background-color: #4b6281;
+    color: white;
+    bottom: 0px;
+    position: fixed;
+    height: 40px;
+    padding-left: 20px;
+  
+    height: auto;
+}
+
+#quiz input {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#quiz #quizbutton {
+    margin-left: 50px;
+}
+
+#quiz #html5markup {
+    width: 500px;
+}
+
+#quiz #methodParameters {
+    width: 200px;
+    overflow: hidden;
+}
+
+#quizline {
+    display: none;
+}
+
+

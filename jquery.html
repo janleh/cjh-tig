@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>jQuery: The interactive guide</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="css/buildtree.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.20.custom.css" />
+        <script type="text/javascript" src="../jquery/jquery-1.7.1.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.19.custom.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.20.custom.min.js"></script>
+        <script type="text/javascript" src="js/quizmanager.js"></script>
+        <script type="text/javascript" src="js/buildtree.js"></script>
+        <script type="text/javascript" src="js/interactivemode.js"></script>
+        <script type="text/javascript" src="js/jquery-textarea-autoresize.js"></script>
+        <script type="text/javascript" src="js/jqueryrunner.js"></script>
+    </head>
+    <body id="jquery">
+
+        <div id="tree">          
+        </div>
+
+        <div id="wrapper">
+
+            <div id="banner">
+                <header>
+                    <h1><span id="cssheader">CSS</span>, 
+                        <span id="jqueryheader"> jQuery</span> &
+                        <span id="html5header">HTML5</span>
+                        <span id="guideheader">: The interactive guide</span>
+                    </h1>
+                </header>
+
+                <nav>
+                    <a href="index.html">Home</a> 
+                    <a href="css21.html">CSS 2.1</a> 
+                    <a href="css3.html">CSS3</a>
+                    <a href="jquery.html" id="jqueryLink">jQuery</a>
+                    <a href="html5.html">HTML5</a>
+                    <span id="interactiveMode">Interactive mode</span>
+                    <button type="button" id="interactiveModeButton">Start</button> 
+
+                </nav>
+            </div>
+
+
+            <div id="content">
+                <h1>jQuery</h1>
+                <p>jQuery is the most popular JavaScript library. It includes over 500 
+                    functions. It is compatible with the following browsers:
+                </p>
+                <ul>
+                    <li>Firefox 3.6+</li>
+                    <li>Internet Explorer 6.0+</li>
+                    <li>Safari 5.0+</li>
+                    <li>Opera</li>
+                    <li>Chrome</li>
+                </ul>
+                <h2>Functions and methods</h2>
+                <p>The functions and methods in jQuery library can be divided in
+                    several ranges. The following table shows them giving destriction
+                    and explasen</p>
+                <table id="jQueryTable">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Description</th>
+                            <th>Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ajax</td>
+                            <td>AJAX handling</td>
+                            <td>jQuery.ajax()</td>
+                        </tr>
+                        <tr>
+                            <td>Attributes</td>
+                            <td>Methods to get and set DOM element attributes</td>
+                            <td>.addClass()</td>
+                        </tr>
+                        <tr>
+                            <td>Callbacks Object</td>
+                            <td>Multipurpose object for managing callback lists</td>
+                            <td>jQuery.Callback()</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Methods to get and set CSS-related properties</td>
+                            <td>.css()</td>
+                        </tr>
+                            <tr>
+                            <td>Data</td>
+                            <td>Methods allow to associate arbitrary data with DOM elements</td>
+                            <td>jQuery.data()</td>
+                        </tr>
+                            <tr>
+                            <td>Deferred Object</td>
+                            <td>Chainable utility object that can register multiple callbacks</td>
+                            <td>deferred.then()</td>
+                        </tr>
+                            <tr>
+                            <td>Effects</td>
+                            <td>From simple to complex custom animation effects</td>
+                            <td>.hide()</td>
+                        </tr>
+                            <tr>
+                            <td>Events</td>
+                            <td>Handling of events that occur when user interacts with the browser</td>
+                            <td>.bind()</td>
+                        </tr>
+                            <tr>
+                            <td>Forms</td>
+                            <td>Methods related to form handling</td>
+                            <td>.submit()</td>
+                        </tr>
+                        <tr>
+                            <td>Manipulation</td>
+                            <td>Methods to manipulate DOM in some way</td>
+                            <td>.before()</td>
+                        </tr>
+                         <tr>
+                            <td>Selectors</td>
+                            <td>All CSS 1-3 selectors and some jQuery specific</td>
+                            <td>eq() Selector</td>
+                        </tr>
+                             <tr>
+                            <td>Forms</td>
+                            <td>Methods related to form handling</td>
+                            <td>.submit()</td>
+                        </tr>
+                          <tr>
+                            <td>Traversing</td>
+                            <td>Methods to traverse DOM tree or Array's</td>
+                            <td>.each()</td>
+                        </tr>
+                         <tr>
+                            <td>Utilities</td>
+                            <td>Utility functions</td>
+                            <td>jQuery.extend()</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+
+                <fieldset><legend>The benefits of jQuery</legend> 
+    
+                    <p>
+                        <label for="faster">Makes coding faster</label> 
+                        <input id="faster" type="checkbox" name="jquery" value="fast" /><br />
+      
+                        <label for="cleaner">Makes code cleaner</label> 
+                        <input id="cleaner" type="checkbox" name="jquery" value="clean" /><br />
+      
+                        <label for="funnier">Makes coding funnier</label> 
+                        <input id="funnier" type="checkbox" name="jquery" value="fun" /><br />
+      
+                        <label for="possible">Makes more things possible</label> 
+                        <input id="possible" type="checkbox" name="jquery" value="possible" /><br />
+                        
+                        <label for="morebenefits">Think of more</label>
+                        <input id="morebenefits" type="text" name="jquerytext" value="" />
+                        
+                    </p>
+                </fieldset>
+    
+            </div>
+
+            <div id="quiz">
+                <p>
+                <span id="quiztask"></span>
+                <span id="quizcategory"></span>
+                </p>
+                <p>
+                    <label for="cssselector"> Selector</label>
+                    <input type="text" name="cssselector" id="cssselector" value="" />
+                    <label for="methodName">Method name</label>
+                    <input type="text" name="methodName" id="methodName" value="" />
+                    <label for="methodParameters">Parameters</label>
+                    <textarea rows="1" name="methodParameters" id="methodParameters"> </textarea>
+                    <button type="button" id="gobutton">Run</button>
+                    <label for="methodAutoComplete">Auto-complete</label>
+                    <input type="checkbox" name="methodAutoComplete" id="methodAutoComplete" />
+                    <!--<button type="button" id="quizbutton">Start quiz</button>-->
+
+            </div>
+
+        </div>
+    </body>
+</html>

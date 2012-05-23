@@ -1,0 +1,86 @@
+/* 
+    Document   : buildtree
+    Created on : 6.4.2012, 17:20:44
+    Author     : Janne
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+#tree {
+    float: right;
+    width: 350px;
+    font: normal 12px/1.5 Arial;
+}
+
+#domtreelist {
+    list-style-type: none;
+}
+strong { font-weight: bold; }
+.tag {
+    float: left;
+    clear: both;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.tag:first-child { border: 0; }
+
+#tree li[chosen] a {
+    border: 5px solid white;
+    color: cyan;
+    
+    
+}
+.tag span {
+    position: relative;
+    top: 15px;
+    display: block;
+    padding: 0 2em;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.depth1 span{
+    position: relative;
+    left: -10px;
+    top: 0;
+    background: #2b373d;
+    color: white;  
+    padding: 1em 3em;  
+}
+.depth1 span:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 -10px -10px;
+    left: 0;
+    border-color: transparent black transparent transparent;
+    border-style: solid;
+    border-width: 10px;  
+}
+.depth2 span {
+    margin-left: 2em;
+    background-color: #219ce0;
+}
+.depth3 span {
+    color: yellow;
+    margin-left: 4em;
+    background-color: #3b718f;
+    /*background-color:  #abbfd7;*/
+}
+.depth4 span {
+    margin-left: 6em;
+    background-color: #37505d;
+}
+.depth5 span {
+    margin-left: 8em;
+    background-color:  #abbfd7;
+}
+
+.depth6 span {
+    margin-left: 10em;
+    background-color:   #838a93;
+    display: none;
+}

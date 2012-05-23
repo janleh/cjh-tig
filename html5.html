@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>CSS: The interactive guide</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="css/buildtree.css" />
+        <link rel="stylesheet" type="text/css" href="css/css3.css" />
+        <script type="text/javascript" src="../jquery/jquery-1.7.1.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.19.custom.min.js"></script>
+        <script type="text/javascript" src="js/buildtree.js"></script>
+        <script type="text/javascript" src="js/html5runner.js"></script>
+        <script type="text/javascript" src="js/interactivemode.js"></script>
+    </head>
+    <body id="html5">
+        <div id="tree">          
+        </div>
+
+        <div id="wrapper">
+
+            <div id="banner">
+                <header>
+                    <h1><span id="cssheader">CSS</span>, 
+                        <span id="jqueryheader"> jQuery</span> &
+                        <span id="html5header">HTML5</span>
+                        <span id="guideheader">: The interactive guide</span>
+                    </h1>
+                </header>
+
+                <nav>
+                    <a href="index.html">Home</a> 
+                    <a href="css21.html">CSS 2.1</a> 
+                    <a href="css3.html">CSS 3</a>
+                    <a href="jquery.html">jQuery</a>
+                    <a href="html5.html" id="html5Link">HTML5</a>
+                    <span id="interactiveMode">Interactive mode</span>
+                    <button type="button" id="interactiveModeButton">Start</button> 
+                </nav>
+            </div>
+
+            <div id="content">
+                <h1>HTML5</h1>
+                <p>HTML5, the new standard for the web.</p>
+                <h2>Video</h2>
+                <p>HTML 5 includes builtin video support. It has gained more
+                and more support, taking ground from Flash. Compared to Flash,
+                no plug-in required. On the downside, browsers vary on which
+                video formats they support.</p>
+                
+                <div id="videodiv">Practice: insert video here! Source is:
+            video/transformes.mp4 and/or video/transformers.ogg</div>
+                 
+                <h2>Audio</h2>
+                <p>HTML 5 includes also built-in audio support. Similarly to video
+                    support, browsers vary on which formats they support</p>
+                
+                <div id="audiodiv">Practice! Insert audio here! Source is: audio/
+                The_Spyro_-_Virtuous_Life.mp3 or audio/The_Spyro_-_Virtuous_Life.ogg</div>
+                
+            </div>   
+
+            <div id="quiz">
+                <!--<p id="quizline">
+             
+                <span id='quiztask'>Task</span>
+                </p>-->
+                <p>
+                    <label for="cssselector"> Selector</label>
+                    <input type="text" name="cssselector" id="cssselector" value="" />
+                    <label for="html5markup">HTML</label>
+                    <input type="text" name="html5markup" id="html5markup" value="" />
+                    <button type="button" id="gobutton">Go</button>
+              
+                </p>
+            </div>
+
+
+
+
+        </div>
+    </body>
+</html>

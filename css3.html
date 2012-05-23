@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>CSS: The interactive guide</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="css/buildtree.css" />
+        <link rel="stylesheet" type="text/css" href="css/css3.css" />
+        <script type="text/javascript" src="../jquery/jquery-1.7.1.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.19.custom.min.js"></script>
+        <script type="text/javascript" src="js/quizmanager.js"></script>
+        <script type="text/javascript" src="js/buildtree.js"></script>
+        <script type="text/javascript" src="js/cssrunner.js"></script>
+        <script type="text/javascript" src="js/interactivemode.js"></script>
+    </head>
+    <body id="css3">
+
+        <div id="tree">    
+        </div>
+
+        <div id="wrapper">
+
+            <div id="banner">
+                <header>
+                    <h1><span id="cssheader">CSS</span>, 
+                        <span id="jqueryheader"> jQuery</span> &
+                        <span id="html5header">HTML5</span>
+                        <span id="guideheader">: The interactive guide</span>
+                    </h1>
+                </header>
+
+                <nav>
+                    <a href="index.html">Home</a> 
+                    <a href="css21.html">CSS 2.1</a> 
+                    <a href="css3.html" id="css3Link">CSS 3</a>
+                    <a href="jquery.html">jQuery</a>
+                    <a href="html5.html">HTML5</a>
+                    <span id="interactiveMode">Interactive mode</span>
+                    <button type="button" id="interactiveModeButton">Start</button> 
+                </nav>
+            </div>
+
+            <div id="content">
+                <h1>CSS 3</h1>
+                <p>CSS level 3 is the latest standard</p>
+                <h2>New CSS 3 selectors</h2>
+                <p>CSS selectors can be divided into following categories</p>
+                <ul id="cssselectorlist">
+                    <li>Child selectors</li>
+                    <li>Type selectors</li>
+                </ul>
+
+                <h2>Font freedom</h2>
+                <p>CSS 3 introduced ability to display fonts that are not installed
+                    in the computer that views them. 
+
+                <h2>New CSS properties</h2>
+                <p>CSS 3 includes several new properties. These are:</p>
+                <ul id="csspropertylist">
+                    <li>Opacity</li>
+                    <li>RGBA color</li>
+                    <li>Text shadow</li>
+                    <li>Rounded corners</li>
+                    <li>Drop shadow</li>
+                    <li>Border image</li>
+                </ul>
+
+                <h2>Examples</h2>
+
+                <h3> Opacity </h3>
+                <div id="normaldiv" class="examplediv">I am normal div
+                    <div id="seethrudiv" class="examplediv css3div">I am a see through div</div> 
+                </div>
+
+                <h3>Text shadow</h3>
+                <div id="notextshadow" class="examplediv">Text with no shadow
+                    <div id="textwithshadow" class="examplediv css3div">Text with shadow</div>
+                </div>
+
+                <h3>Rounded corners</h3>
+                <div id="straightcornersdiv" class="examplediv">I am div with straight corners
+                    <div id="roundedcornersdiv" class="examplediv css3div">I am div with rounded corners</div> 
+                </div>
+
+                <h3>Drop shadows</h3>
+                <div id="nodropshadowdiv" class="examplediv">I am div with no drop shadow
+                    <div id="dropshadowdiv" class="examplediv css3div">I am div with drop shadow</div> 
+                </div>
+
+            </div>
+
+            <div id="quiz">
+                <p>
+                    <label for="cssselector"> Selector</label>
+                    <input type="text" name="cssselector" id="cssselector" value="" />
+                    <label for="csspropertyname">Property name</label>
+                    <input type="text" name="csspropertyname" id="csspropertyname" value="" />
+                    <label for="csspropertyvalue">Property value</label>
+                    <input type="text" name="csspropertyvalue" id="csspropertyvalue" value="" />
+                    <button type="button" id="gobutton">Go</button>
+
+
+                </p>
+            </div>
+
+        </div>
+    </body>
+</html>

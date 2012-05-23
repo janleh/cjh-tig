@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>CSS: The interactive guide</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="css/buildtree.css" />
+        <script type="text/javascript" src="../jquery/jquery-1.7.1.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.19.custom.min.js"></script>
+        <script type="text/javascript" src="js/quizmanager.js"></script>
+        <script type="text/javascript" src="js/buildtree.js"></script>
+        <script type="text/javascript" src="js/cssrunner.js"></script>
+        <script type="text/javascript" src="js/interactivemode.js"></script>
+    </head>
+    <body id="css21">
+
+        <div id="tree">          
+        </div>
+
+        <div id="wrapper">
+
+
+            <div id="banner">
+                <header>
+                    <h1><span id="cssheader">CSS</span>, 
+                        <span id="jqueryheader"> jQuery</span> &
+                        <span id="html5header">HTML5</span>
+                        <span id="guideheader">: The interactive guide</span>
+                    </h1>
+                </header>
+
+                <nav>
+                    <a href="index.html">Home</a> 
+                    <a href="css21.html" id="css21Link">CSS 2.1</a> 
+                    <a href="css3.html">CSS 3</a>
+                    <a href="jquery.html">jQuery</a>
+                    <a href="html5.html">HTML5</a>
+                    <span id="interactiveMode">Interactive mode</span>
+                    <button type="button" id="interactiveModeButton">Start</button> 
+                </nav>
+            </div>
+
+            <div id="content">
+                <h1>CSS 2.1</h1>
+                <p>CSS stands for Cascading Style Sheets. It is used to style the content
+                    of HTML pages</p>
+                <h2>CSS selectors</h2>
+                <p>CSS selectors can be divided into following categories</p>
+                <ul id="cssselectorlist">
+                    <li>Tag</li>
+                    <li>ID</li>
+                    <li>Class</li>
+                    <li>Attribute</li>
+                    <li>Descendant</li>
+                </ul>
+
+                <h2>CSS properties</h2>
+                <p>CSS 2.1 includes over 400 hundred properties. The properties 
+                    can be divided in several categories</p>
+                <ul id="csspropertylist">
+                    <li>Text</li>
+                    <li>List</li>
+                    <li>Backgroud</li>
+                    <li>Padding, margins</li>
+                    <li>Page layout</li>
+                    <li>Table</li>
+                    <li>Miscallenous</li>
+                </ul>
+
+            </div>
+
+            <div id="quiz">
+                <p id="quizline">
+                <span id='quiztask'></span>
+                </p>
+                <p>
+                    <label for="cssselector"> Selector</label>
+                    <input type="text" name="cssselector" id="cssselector" value="" />
+                    <label for="csspropertyname">Property name</label>
+                    <input type="text" name="csspropertyname" id="csspropertyname" value="" />
+                    <label for="csspropertyvalue">Property value</label>
+                    <input type="text" name="csspropertyvalue" id="csspropertyvalue" value="" />
+                    <button type="button" id="gobutton">Run</button>
+                    <button type="button" id="quizbutton">Start quiz</button> 
+                
+                </p>
+
+            </div>
+
+
+
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+/* 
+    Document   : css3
+    Created on : 12.4.2012, 12:51:40
+    Author     : Janne
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.examplediv {
+    width: 100px;
+    height: 50px;
+    background-color: #61737d;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+}
+
+.css3div {
+    position: absolute;
+    left: 130px;
+    top: -5px;
+}
+
+#seethrudiv {
+    opacity: 0.5;
+    /*position: absolute;
+    left: 130px;
+    top: -5px;*/
+
+}
+#noshadow {
+    font-family: Helvetica, Arial;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+#textwithshadow {
+    text-shadow: -4px 4px 3px black;
+}
+#roundedcornersdiv {
+    border-radius: 15px;
+}
+#dropshadowdiv {
+    box-shadow: 8px 8px 4px #888;
+}
+
+
+
+
+
+
