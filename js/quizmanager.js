@@ -31,8 +31,7 @@ function QuizManager (tasks) {
         
     }
     this.checkTask = function (selector) {
-        alert(selector);
-        alert(tasks[task_index].selector);
+
         if ($(selector) == $(tasks[task_index].selector)){
             alert('same selectors');
         }

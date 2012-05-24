@@ -9,7 +9,6 @@ function runCSS() {
                         
     changeCSS(selector, propertyName, propertyValue);
     $(selector).removeAttr('chosen');
-    QM.checkTask(selector);
     QM.nextTask();
 }
         

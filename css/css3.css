@@ -13,13 +13,13 @@
     background-color: #61737d;
     padding: 10px;
     margin: 5px;
-    position: relative;
+    float: left;
+    /*position: relative;*/
 }
 
-.css3div {
-    position: absolute;
-    left: 130px;
-    top: -5px;
+
+h3 {
+    clear: both;
 }
 
 #seethrudiv {

@@ -17,6 +17,7 @@ function runjQuery() {
     func,
     param;
   
+    parameters = parameters.replace("\n", "");
     
     while (parameters.length > 0)
     {
